@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekend Shine Co.</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #ffffff; color: #333; }
+    header { background: #f1f1f1; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.5em; margin-bottom: 10px; }
+    header p { font-size: 1.2em; }
+    .cta { background: #ffcd00; color: #000; padding: 15px 30px; display: inline-block; margin-top: 30px; font-weight: bold; text-decoration: none; border-radius: 5px; }
+    section { padding: 40px 20px; max-width: 800px; margin: auto; }
+    h2 { color: #222; margin-bottom: 20px; }
+    ul { list-style: none; padding-left: 0; }
+    ul li::before { content: "✅ "; }
+    form { margin-top: 20px; }
+    label { display: block; margin-top: 15px; font-weight: bold; }
+    input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; border-radius: 5px; border: 1px solid #ccc; }
+    input[type="submit"] { background: #000; color: #fff; border: none; margin-top: 20px; cursor: pointer; }
+    footer { background: #f9f9f9; padding: 30px 20px; text-align: center; font-size: 0.9em; color: #555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨ Need Something Cleaned This Weekend?</h1>
+    <p>We connect you with top-rated local cleaners for:<br />
+    🚗 Car Detailing • 🏠 House Washing • 💦 Pressure Washing • 🍂 Gutter Cleaning • 🛻 Junk Removal</p>
+    <a class="cta" href="#quote">Get a Free Quote</a>
+  </header>
+
+  <section>
+    <h2>About Weekend Shine Co.</h2>
+    <p>We’re your shortcut to finding reliable mobile cleaners in the Atlanta area. Whether it's a car interior that needs a deep detail or a driveway that needs a pressure wash, we connect you to trusted pros who show up on time and do the job right.</p>
+    <p>No apps. No spam. Just clean results.</p>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <ul>
+      <li>Tell us what you need</li>
+      <li>We connect you with a trusted local pro</li>
+      <li>They show up, do the work, and you pay them directly</li>
+      <li>First-time customers get priority weekend slots!</li>
+    </ul>
+  </section>
+
+  <section id="quote">
+    <h2>Request a Free Quote</h2>
+    <form>
+      <label>Name</label>
+      <input type="text" name="name" />
+      <label>Phone</label>
+      <input type="text" name="phone" />
+      <label>Zip Code</label>
+      <input type="text" name="zip" />
+      <label>What Do You Need Cleaned?</label>
+      <select name="service">
+        <option>Car Detail</option>
+        <option>House Wash</option>
+        <option>Pressure Wash</option>
+        <option>Gutter Cleaning</option>
+        <option>Junk Removal</option>
+        <option>Window Cleaning</option>
+      </select>
+      <label>Preferred Date</label>
+      <input type="date" name="date" />
+      <label>Notes or Special Instructions</label>
+      <textarea name="notes"></textarea>
+      <input type="submit" value="🔎 Get My Free Quote" />
+    </form>
+  </section>
+
+  <footer>
+    Weekend Shine Co.™<br />
+    Proudly Serving North Atlanta<br />
+    📧 hello@weekendshine.co
+  </footer>
+</body>
+</html>
